@@ -1,0 +1,17 @@
+# App config
+server:
+  port: 8380
+  servlet:
+    context-path: /mongo-demo
+
+spring:
+  application:
+    name: mongo-demo
+  data: #Local MongoDB config
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: root
+      database: AgnasarpDB
+      port: 27017
+      host: localhost
